@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">rahul_s_application1</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_man_shirt">Man Shirt</string>
+<string name="lbl_your_email">Your Email</string>
+<string name="lbl_dashboard">Dashboard</string>
+<string name="msg_fs_nike_air_m">FS - Nike Air Max 270 React...</string>
+<string name="lbl_category">Category</string>
+<string name="lbl_offer">Offer</string>
+<string name="lbl_see_more">See More</string>
+<string name="msg_glad_to_meet_y">Glad to meet 
+you again!</string>
+<string name="lbl_flash_sale">Flash Sale</string>
+<string name="lbl_home">Home</string>
+<string name="lbl_08">08</string>
+<string name="msg_ms_nike_air_m">MS - Nike Air Max 270 React...</string>
+<string name="lbl_search_product">Search Product</string>
+<string name="msg_fs_quilted_ma">FS - QUILTED MAXI CROS...</string>
+<string name="lbl_sign_up_now">Sign Up Now</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="lbl_299_43">$299,43</string>
+<string name="lbl_sign_in_now">Sign In Now</string>
+<string name="lbl_cart">Cart</string>
+<string name="lbl_your_name">Your Name</string>
+<string name="lbl_sign_in">Sign In</string>
+<string name="lbl_24_off">24% Off</string>
+<string name="lbl_forgot_password">Forgot Password</string>
+<string name="lbl_52">52</string>
+<string name="msg_already_registe">Already registered? Sign In</string>
+<string name="lbl_offer_screen">Offer Screen</string>
+<string name="lbl_534_33">$534,33</string>
+<string name="lbl_34">34</string>
+<string name="msg_sign_up_and_sta">Sign up and
+starting workout</string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="lbl_dress">Dress</string>
+<string name="lbl_splash_screen">Splash Screen</string>
+<string name="lbl_sign_up">Sign Up</string>
+<string name="msg_super_flash_sal">Super Flash Sale
+50% Off</string>
+<string name="msg_nike_air_max_27">Nike Air Max 270 React ENG</string>
+<string name="lbl_or">Or</string>
+<string name="lbl_man_shoes">Man Shoes</string>
+<string name="lbl_explore">Explore</string>
+<string name="msg_by_signing_up_y">By signing up you agree to our Term of use and privacy notice</string>
+<string name="lbl">:</string>
+<string name="lbl_more_category">More Category</string>
+<string name="msg_man_work_equipm">Man Work Equipment</string>
+<string name="lbl_woman_bag">Woman Bag</string>
+<string name="lbl_remember_me">Remember me</string>
+<string name="lbl_mega_sale">Mega Sale</string>
+<string name="msg_super_flash_sal2">Super Flash Sale</string>
+<string name="lbl_account">Account</string>
+<string name="msg_already_registe2">Already registered?</string>
+<string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+</resources>
