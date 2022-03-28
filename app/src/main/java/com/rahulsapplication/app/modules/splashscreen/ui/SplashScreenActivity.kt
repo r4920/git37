@@ -7,7 +7,6 @@ import androidx.activity.viewModels
 import com.rahulsapplication.app.R
 import com.rahulsapplication.app.appcomponents.base.BaseActivity
 import com.rahulsapplication.app.databinding.ActivitySplashScreenBinding
-import com.rahulsapplication.app.modules.login.ui.LoginActivity
 import com.rahulsapplication.app.modules.splashscreen.`data`.viewmodel.SplashScreenVM
 import kotlin.String
 import kotlin.Unit
@@ -23,8 +22,7 @@ public class SplashScreenActivity :
 
   public override fun setUpClicks(): Unit {
     binding.imageLogo.setOnClickListener {
-      val destIntent = LoginActivity.getIntent(this, null)
-      startActivity(destIntent)
+      // TODO please, add your navigation code here
     }
   }
 

@@ -11,7 +11,7 @@ import com.rahulsapplication.app.databinding.ActivityDashboardBinding
 import com.rahulsapplication.app.modules.dashboard.`data`.model.Dashboard2RowModel
 import com.rahulsapplication.app.modules.dashboard.`data`.model.Dashboard3RowModel
 import com.rahulsapplication.app.modules.dashboard.`data`.model.Dashboard4RowModel
-import com.rahulsapplication.app.modules.dashboard.`data`.model.ImageSliderGroup17Model
+import com.rahulsapplication.app.modules.dashboard.`data`.model.ImageSliderGroup8Model
 import com.rahulsapplication.app.modules.dashboard.`data`.viewmodel.DashboardVM
 import com.rahulsapplication.app.modules.offerscreen.ui.OfferScreenActivity
 import kotlin.Int
@@ -21,18 +21,18 @@ import kotlin.collections.ArrayList
 
 public class DashboardActivity : BaseActivity<ActivityDashboardBinding>(R.layout.activity_dashboard)
     {
-  private val imageSliderGroup17Items: ArrayList<ImageSliderGroup17Model> = arrayListOf()
+  private val imageSliderGroup8Items: ArrayList<ImageSliderGroup8Model> = arrayListOf()
 
   private val viewModel: DashboardVM by viewModels<DashboardVM>()
 
   public override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras
-    val imageSliderGroup17Adapter = ImageSliderGroup17Adapter(imageSliderGroup17Items,true)
-    binding.imageSliderGroup17.adapter = imageSliderGroup17Adapter
-    binding.imageSliderGroup17.onIndicatorProgress = { selectingPosition, progress ->
-      binding.indicatorGroup15.onPageScrolled(selectingPosition, progress)
+    val imageSliderGroup8Adapter = ImageSliderGroup8Adapter(imageSliderGroup8Items,true)
+    binding.imageSliderGroup8.adapter = imageSliderGroup8Adapter
+    binding.imageSliderGroup8.onIndicatorProgress = { selectingPosition, progress ->
+      binding.indicatorGroup6.onPageScrolled(selectingPosition, progress)
     }
-    binding.indicatorGroup15.updateIndicatorCounts(binding.imageSliderGroup17.indicatorCount)
+    binding.indicatorGroup6.updateIndicatorCounts(binding.imageSliderGroup8.indicatorCount)
     val recyclerFlashSaleAdapter =
     RecyclerFlashSaleAdapter(viewModel.recyclerFlashSaleList.value?:mutableListOf())
     binding.recyclerFlashSale.adapter = recyclerFlashSaleAdapter
@@ -76,13 +76,13 @@ public class DashboardActivity : BaseActivity<ActivityDashboardBinding>(R.layout
   }
 
   public override fun onPause(): Unit {
-    binding.imageSliderGroup17.pauseAutoScroll()
+    binding.imageSliderGroup8.pauseAutoScroll()
     super.onPause()
   }
 
   public override fun onResume(): Unit {
     super.onResume()
-    binding.imageSliderGroup17.resumeAutoScroll()
+    binding.imageSliderGroup8.resumeAutoScroll()
   }
 
   public override fun setUpClicks(): Unit {

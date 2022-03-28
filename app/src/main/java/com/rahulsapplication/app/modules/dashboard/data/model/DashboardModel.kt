@@ -19,7 +19,7 @@ public data class DashboardModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtMoreCategory: String? =
+  public var txtMoreCategoryL: String? =
       MyApp.getInstance().resources.getString(R.string.lbl_more_category)
   ,
   /**
@@ -57,7 +57,8 @@ public data class DashboardModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtSeeMore: String? = MyApp.getInstance().resources.getString(R.string.lbl_see_more)
+  public var txtSeeMoreLink: String? =
+      MyApp.getInstance().resources.getString(R.string.lbl_see_more)
   ,
   /**
    * TODO Replace with dynamic value
@@ -67,7 +68,8 @@ public data class DashboardModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtSeeMore1: String? = MyApp.getInstance().resources.getString(R.string.lbl_see_more)
+  public var txtSeeMoreLink1: String? =
+      MyApp.getInstance().resources.getString(R.string.lbl_see_more)
   ,
   /**
    * TODO Replace with dynamic value

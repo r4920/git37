@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStyleblack_900">
-        <LinearLayout android:id="@+id/linearGroup31"
+        <LinearLayout android:id="@+id/linearGroup22"
             android:layout_height="match_parent"
             android:layout_marginBottom="@dimen/_22pxv"
             android:layout_width="match_parent" android:orientation="vertical">
@@ -21,17 +21,16 @@
                 android:layout_marginTop="@dimen/_18pxv"
                 android:layout_width="@dimen/_24pxh"
                 android:scaleType="fitXY" android:src="@drawable/img_iconarrowle"/>
-            <TextView android:gravity="start"
-                android:id="@+id/txtSignUpAndsta"
+            <TextView android:gravity="start" android:id="@+id/txtTitle"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_25pxh"
                 android:layout_marginStart="@dimen/_25pxh"
                 android:layout_marginTop="@dimen/_25pxv"
                 android:layout_width="match_parent"
-                android:text="@{signUpVM.signUpModel.txtSignUpAndsta}"
+                android:text="@{signUpVM.signUpModel.txtTitle}"
                 style="@style/txtRobotobold35" tools:text="@string/msg_sign_up_and_sta"/>
             <TextView android:gravity="start"
-                android:id="@+id/txtYourName"
+                android:id="@+id/txtGroup21"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_25pxh"
@@ -40,10 +39,10 @@
                 android:paddingBottom="@dimen/_21pxv"
                 android:paddingStart="@dimen/_20pxh"
                 android:paddingTop="@dimen/_19pxv"
-                android:text="@{signUpVM.signUpModel.txtYourName}"
+                android:text="@{signUpVM.signUpModel.txtGroup21}"
                 style="@style/txtSolidRounded" tools:text="@string/lbl_your_name"/>
             <TextView android:gravity="start"
-                android:id="@+id/txtYourName1"
+                android:id="@+id/txtGroup20"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_25pxh"
@@ -52,10 +51,10 @@
                 android:paddingBottom="@dimen/_21pxv"
                 android:paddingStart="@dimen/_20pxh"
                 android:paddingTop="@dimen/_19pxv"
-                android:text="@{signUpVM.signUpModel.txtYourName1}"
+                android:text="@{signUpVM.signUpModel.txtGroup20}"
                 style="@style/txtSolidRounded" tools:text="@string/lbl_your_name"/>
             <TextView android:gravity="start"
-                android:id="@+id/txtYourName2"
+                android:id="@+id/txtGroup19"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_25pxh"
@@ -64,10 +63,10 @@
                 android:paddingBottom="@dimen/_21pxv"
                 android:paddingStart="@dimen/_20pxh"
                 android:paddingTop="@dimen/_19pxv"
-                android:text="@{signUpVM.signUpModel.txtYourName2}"
+                android:text="@{signUpVM.signUpModel.txtGroup19}"
                 style="@style/txtSolidRounded" tools:text="@string/lbl_your_name"/>
             <TextView android:gravity="start"
-                android:id="@+id/txtYourName3"
+                android:id="@+id/txtGroup18"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:layout_marginStart="@dimen/_25pxh"
@@ -76,16 +75,16 @@
                 android:paddingBottom="@dimen/_21pxv"
                 android:paddingStart="@dimen/_20pxh"
                 android:paddingTop="@dimen/_19pxv"
-                android:text="@{signUpVM.signUpModel.txtYourName3}"
+                android:text="@{signUpVM.signUpModel.txtGroup18}"
                 style="@style/txtSolidRounded" tools:text="@string/lbl_your_name"/>
             <TextView android:alpha="0.5" android:gravity="start"
-                android:id="@+id/txtBySigningUpY"
+                android:id="@+id/txtBysigningupy"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_31pxh"
                 android:layout_marginStart="@dimen/_31pxh"
                 android:layout_marginTop="@dimen/_21pxv"
                 android:layout_width="match_parent"
-                android:text="@{signUpVM.signUpModel.txtBySigningUpY}"
+                android:text="@{signUpVM.signUpModel.txtBysigningupy}"
                 style="@style/txtInterregular12" tools:text="@string/msg_by_signing_up_y"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:ellipsize="end" android:gravity="center"
@@ -102,9 +101,9 @@
                 android:singleLine="true"
                 android:text="@string/lbl_sign_up_now"
                 android:textAllCaps="false"
-                style="@style/btnSolidRounded_2" tools:text="@string/lbl_sign_up_now"/>
+                style="@style/btnSolidRounded_1" tools:text="@string/lbl_sign_up_now"/>
             <TextView android:ellipsize="end"
-                android:id="@+id/txtAlreadyRegiste"
+                android:id="@+id/txtAlreadyregiste"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_16pxh"
@@ -112,7 +111,7 @@
                 android:layout_marginTop="@dimen/_43pxv"
                 android:layout_width="wrap_content"
                 android:singleLine="true"
-                android:text="@{signUpVM.signUpModel.txtAlreadyRegiste}"
+                android:text="@{signUpVM.signUpModel.txtAlreadyregiste}"
                 style="@style/txtRobotoregular12" tools:text="@string/msg_already_registe"/>
         </LinearLayout>
     </LinearLayout>

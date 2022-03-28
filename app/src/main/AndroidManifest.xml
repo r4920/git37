@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
         <activity
-            android:name="com.rahulsapplication.app.modules.registerform.ui.RegisterFormActivity" android:screenOrientation="portrait"/>
-        <activity
             android:name="com.rahulsapplication.app.modules.offerscreen.ui.OfferScreenActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.rahulsapplication.app.modules.appnavigation.ui.AppNavigationActivity" android:screenOrientation="portrait"/>
@@ -27,7 +25,5 @@
             android:name="com.rahulsapplication.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.rahulsapplication.app.modules.dashboard.ui.DashboardActivity" android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.rahulsapplication.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
     </application>
 </manifest>

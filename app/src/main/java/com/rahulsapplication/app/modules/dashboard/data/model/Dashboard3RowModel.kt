@@ -14,16 +14,16 @@ public data class Dashboard3RowModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txt29943: String? = MyApp.getInstance().resources.getString(R.string.lbl_299_43)
+  public var txtPrice1: String? = MyApp.getInstance().resources.getString(R.string.lbl_299_43)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txt53433: String? = MyApp.getInstance().resources.getString(R.string.lbl_534_33)
+  public var txtPrice3: String? = MyApp.getInstance().resources.getString(R.string.lbl_534_33)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txt24Off: String? = MyApp.getInstance().resources.getString(R.string.lbl_24_off)
+  public var txtOffer: String? = MyApp.getInstance().resources.getString(R.string.lbl_24_off)
 
 )

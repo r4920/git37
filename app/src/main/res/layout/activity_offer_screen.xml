@@ -5,7 +5,7 @@
         <variable name="offerScreenVM" type="com.rahulsapplication.app.modules.offerscreen.data.viewmodel.OfferScreenVM"/>
     </data>
     <LinearLayout android:gravity="start"
-        android:id="@+id/linearGroup81"
+        android:id="@+id/linearGroup72"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStylewhite_A700">
@@ -14,12 +14,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_26pxv"
             android:layout_width="match_parent" app:contentInsetStart="0dp">
-            <LinearLayout android:id="@+id/linearGroup66"
+            <LinearLayout android:id="@+id/linearGroup57"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="@dimen/_16pxh"
                 android:layout_marginStart="@dimen/_16pxh"
                 android:layout_width="match_parent" android:orientation="horizontal">
-                <LinearLayout android:id="@+id/linearGroup83"
+                <LinearLayout android:id="@+id/linearGroup74"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.88"
                     android:layout_width="0dp" android:orientation="horizontal">
@@ -52,10 +52,10 @@
             android:layout_marginTop="@dimen/_44pxv"
             android:layout_weight="1" android:layout_width="match_parent">
             <LinearLayout android:gravity="center_horizontal"
-                android:id="@+id/linearGroup71"
+                android:id="@+id/linearGroup62"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" android:orientation="vertical">
-                <FrameLayout android:id="@+id/frameGroup74"
+                <FrameLayout android:id="@+id/frameGroup65"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="@dimen/_206pxv"
                     android:layout_marginEnd="@dimen/_16pxh"
@@ -66,7 +66,7 @@
                         android:layout_width="match_parent"
                         android:scaleType="fitXY"
                         imageRes="@{@drawable/img_promotionimage}" tools:src="@drawable/img_promotionimage"/>
-                    <LinearLayout android:id="@+id/linearGroup72"
+                    <LinearLayout android:id="@+id/linearGroup63"
                         android:layout_gravity="start"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_32pxv"
@@ -74,10 +74,10 @@
                         android:layout_marginStart="@dimen/_24pxh"
                         android:layout_marginTop="@dimen/_32pxv"
                         android:layout_width="wrap_content" android:orientation="vertical">
-                        <TextView android:id="@+id/txtSuperFlashSal1"
+                        <TextView android:id="@+id/txtOffer"
                             android:layout_height="wrap_content"
                             android:layout_width="match_parent"
-                            android:text="@{offerScreenVM.offerScreenModel.txtSuperFlashSal1}"
+                            android:text="@{offerScreenVM.offerScreenModel.txtOffer}"
                             style="@style/txtPoppinsbold24" tools:text="@string/msg_super_flash_sal"/>
                         <LinearLayout android:gravity="start"
                             android:id="@+id/linearPromotionPriod"
@@ -98,7 +98,7 @@
                                 android:singleLine="true"
                                 android:text="@string/lbl_08"
                                 android:textAllCaps="false"
-                                style="@style/btnSolidRounded_1" tools:text="@string/lbl_08"/>
+                                style="@style/btnSolidRounded" tools:text="@string/lbl_08"/>
                             <TextView android:ellipsize="end"
                                 android:id="@+id/txt"
                                 android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
                                 android:layout_width="0dp"
                                 android:singleLine="true"
                                 android:text="@{offerScreenVM.offerScreenModel.txt}"
-                                style="@style/txtPoppinsbold14_1" tools:text="@string/lbl"/>
+                                style="@style/txtPoppinsbold14" tools:text="@string/lbl"/>
                             <androidx.appcompat.widget.AppCompatButton
                                 android:ellipsize="end"
                                 android:gravity="center"
@@ -124,7 +124,7 @@
                                 android:singleLine="true"
                                 android:text="@string/lbl_34"
                                 android:textAllCaps="false"
-                                style="@style/btnSolidRounded_1" tools:text="@string/lbl_34"/>
+                                style="@style/btnSolidRounded" tools:text="@string/lbl_34"/>
                             <TextView android:ellipsize="end"
                                 android:id="@+id/txt1"
                                 android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
                                 android:layout_width="0dp"
                                 android:singleLine="true"
                                 android:text="@{offerScreenVM.offerScreenModel.txt1}"
-                                style="@style/txtPoppinsbold14_1" tools:text="@string/lbl"/>
+                                style="@style/txtPoppinsbold14" tools:text="@string/lbl"/>
                             <androidx.appcompat.widget.AppCompatButton
                                 android:ellipsize="end"
                                 android:gravity="center"
@@ -150,7 +150,7 @@
                                 android:singleLine="true"
                                 android:text="@string/lbl_52"
                                 android:textAllCaps="false"
-                                style="@style/btnSolidRounded_1" tools:text="@string/lbl_52"/>
+                                style="@style/btnSolidRounded" tools:text="@string/lbl_52"/>
                         </LinearLayout>
                     </LinearLayout>
                 </FrameLayout>

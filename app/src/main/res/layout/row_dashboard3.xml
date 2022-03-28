@@ -25,16 +25,16 @@
             android:layout_marginTop="@dimen/_8pxv"
             android:layout_width="match_parent"
             android:text="@{dashboard3RowModel.txtMSNikeAirM}"
-            style="@style/txtPoppinsbold12_2" tools:text="@string/msg_ms_nike_air_m"/>
-        <TextView android:ellipsize="end" android:id="@+id/txt29943"
+            style="@style/txtPoppinsbold12" tools:text="@string/msg_ms_nike_air_m"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtPrice1"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_16pxh"
             android:layout_marginStart="@dimen/_16pxh"
             android:layout_marginTop="@dimen/_8pxv"
             android:layout_width="wrap_content"
             android:singleLine="true"
-            android:text="@{dashboard3RowModel.txt29943}"
-            style="@style/txtPoppinsbold12" tools:text="@string/lbl_299_43"/>
+            android:text="@{dashboard3RowModel.txtPrice1}"
+            style="@style/txtPoppinsbold12_1" tools:text="@string/lbl_299_43"/>
         <LinearLayout android:gravity="start"
             android:id="@+id/linearDiscount"
             android:layout_height="wrap_content"
@@ -43,18 +43,19 @@
             android:layout_marginStart="@dimen/_16pxh"
             android:layout_marginTop="@dimen/_8pxv"
             android:layout_width="match_parent" android:orientation="horizontal">
-            <TextView android:ellipsize="end" android:id="@+id/txt53433"
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPrice3"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.42" android:layout_width="0dp"
                 android:singleLine="true"
-                android:text="@{dashboard3RowModel.txt53433}"
+                android:text="@{dashboard3RowModel.txtPrice3}"
                 style="@style/txtPoppinsregular10" tools:text="@string/lbl_534_33"/>
-            <TextView android:ellipsize="end" android:id="@+id/txt24Off"
+            <TextView android:ellipsize="end" android:id="@+id/txtOffer"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_8pxh"
                 android:layout_weight="0.58" android:layout_width="0dp"
                 android:singleLine="true"
-                android:text="@{dashboard3RowModel.txt24Off}"
+                android:text="@{dashboard3RowModel.txtOffer}"
                 style="@style/txtPoppinsbold10" tools:text="@string/lbl_24_off"/>
         </LinearLayout>
     </LinearLayout>

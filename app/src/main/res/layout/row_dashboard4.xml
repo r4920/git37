@@ -30,11 +30,11 @@
                 android:id="@+id/linearProductname"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" android:orientation="vertical">
-                <TextView android:id="@+id/txtNikeAirMax27"
+                <TextView android:id="@+id/txtNikeAirMaxRe"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:text="@{dashboard4RowModel.txtNikeAirMax27}"
-                    style="@style/txtPoppinsbold12_2" tools:text="@string/msg_nike_air_max_27"/>
+                    android:text="@{dashboard4RowModel.txtNikeAirMaxRe}"
+                    style="@style/txtPoppinsbold12" tools:text="@string/msg_nike_air_max_27"/>
                 <androidx.appcompat.widget.AppCompatRatingBar
                     android:id="@+id/ratingBarRatingbar"
                     android:layout_height="wrap_content"
@@ -53,33 +53,33 @@
                 android:layout_marginTop="@dimen/_16pxv"
                 android:layout_width="match_parent" android:orientation="vertical">
                 <TextView android:ellipsize="end"
-                    android:id="@+id/txt29943"
+                    android:id="@+id/txtPrice"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_10pxh"
                     android:layout_width="match_parent"
                     android:singleLine="true"
-                    android:text="@{dashboard4RowModel.txt29943}"
-                    style="@style/txtPoppinsbold12" tools:text="@string/lbl_299_43"/>
+                    android:text="@{dashboard4RowModel.txtPrice}"
+                    style="@style/txtPoppinsbold12_1" tools:text="@string/lbl_299_43"/>
                 <LinearLayout android:id="@+id/linearFrame8"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_4pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txt53433"
+                        android:id="@+id/txtPrice1"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.5"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@{dashboard4RowModel.txt53433}"
+                        android:text="@{dashboard4RowModel.txtPrice1}"
                         style="@style/txtPoppinsregular10" tools:text="@string/lbl_534_33"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txt24Off"
+                        android:id="@+id/txtOffer"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_8pxh"
                         android:layout_weight="0.5"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@{dashboard4RowModel.txt24Off}"
+                        android:text="@{dashboard4RowModel.txtOffer}"
                         style="@style/txtPoppinsbold10" tools:text="@string/lbl_24_off"/>
                 </LinearLayout>
             </LinearLayout>

@@ -26,17 +26,6 @@ public data class AppNavigationModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtLogin: String? = MyApp.getInstance().resources.getString(R.string.lbl_login)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
-  public var txtRegisterForm: String? =
-      MyApp.getInstance().resources.getString(R.string.lbl_register_form)
-  ,
-  /**
-   * TODO Replace with dynamic value
-   */
   public var txtDashboard: String? = MyApp.getInstance().resources.getString(R.string.lbl_dashboard)
   ,
   /**

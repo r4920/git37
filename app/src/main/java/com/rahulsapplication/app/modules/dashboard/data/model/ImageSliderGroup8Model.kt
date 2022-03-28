@@ -4,11 +4,11 @@ import com.rahulsapplication.app.R
 import com.rahulsapplication.app.appcomponents.di.MyApp
 import kotlin.String
 
-public data class ImageSliderGroup17Model(
+public data class ImageSliderGroup8Model(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtSuperFlashSal: String? =
+  public var txtOffer: String? =
       MyApp.getInstance().resources.getString(R.string.msg_super_flash_sal)
   ,
   /**

@@ -8,22 +8,22 @@ public data class OfferScreen1RowModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtNikeAirMax27: String? =
+  public var txtNikeAirMaxRe: String? =
       MyApp.getInstance().resources.getString(R.string.msg_nike_air_max_27)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txt29943: String? = MyApp.getInstance().resources.getString(R.string.lbl_299_43)
+  public var txtPrice: String? = MyApp.getInstance().resources.getString(R.string.lbl_299_43)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txt53433: String? = MyApp.getInstance().resources.getString(R.string.lbl_534_33)
+  public var txtPrice1: String? = MyApp.getInstance().resources.getString(R.string.lbl_534_33)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txt24Off: String? = MyApp.getInstance().resources.getString(R.string.lbl_24_off)
+  public var txtOffer: String? = MyApp.getInstance().resources.getString(R.string.lbl_24_off)
 
 )

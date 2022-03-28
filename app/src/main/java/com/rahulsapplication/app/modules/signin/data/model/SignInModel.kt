@@ -8,19 +8,18 @@ public data class SignInModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtGladToMeety: String? =
+  public var txtTitle: String? =
       MyApp.getInstance().resources.getString(R.string.msg_glad_to_meet_y)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtYourName: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
+  public var txtGroup26: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtYourEmail: String? =
-      MyApp.getInstance().resources.getString(R.string.lbl_your_email)
+  public var txtGroup25: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_email)
   ,
   /**
    * TODO Replace with dynamic value
@@ -31,12 +30,12 @@ public data class SignInModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtOr: String? = MyApp.getInstance().resources.getString(R.string.lbl_or2)
+  public var txtOr: String? = MyApp.getInstance().resources.getString(R.string.lbl_or)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtAlreadyRegiste: String? =
+  public var txtAlreadyregiste: String? =
       MyApp.getInstance().resources.getString(R.string.msg_already_registe)
 
 )

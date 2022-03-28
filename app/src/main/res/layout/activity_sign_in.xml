@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStyleblack_900">
-        <LinearLayout android:id="@+id/linearGroup91"
+        <LinearLayout android:id="@+id/linearGroup82"
             android:layout_height="match_parent"
             android:layout_marginBottom="@dimen/_22pxv"
             android:layout_width="match_parent" android:orientation="vertical">
@@ -21,17 +21,16 @@
                 android:layout_marginTop="@dimen/_18pxv"
                 android:layout_width="@dimen/_24pxh"
                 android:scaleType="fitXY" android:src="@drawable/img_iconarrowle_1"/>
-            <TextView android:gravity="start"
-                android:id="@+id/txtGladToMeety"
+            <TextView android:gravity="start" android:id="@+id/txtTitle"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_25pxh"
                 android:layout_marginStart="@dimen/_25pxh"
                 android:layout_marginTop="@dimen/_25pxv"
                 android:layout_width="match_parent"
-                android:text="@{signInVM.signInModel.txtGladToMeety}"
+                android:text="@{signInVM.signInModel.txtTitle}"
                 style="@style/txtRobotobold35" tools:text="@string/msg_glad_to_meet_y"/>
             <TextView android:gravity="start"
-                android:id="@+id/txtYourName"
+                android:id="@+id/txtGroup26"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_25pxh"
                 android:layout_marginStart="@dimen/_25pxh"
@@ -40,10 +39,10 @@
                 android:paddingBottom="@dimen/_21pxv"
                 android:paddingStart="@dimen/_15pxh"
                 android:paddingTop="@dimen/_19pxv"
-                android:text="@{signInVM.signInModel.txtYourName}"
+                android:text="@{signInVM.signInModel.txtGroup26}"
                 style="@style/txtSolidRounded" tools:text="@string/lbl_your_name"/>
             <TextView android:gravity="start"
-                android:id="@+id/txtYourEmail"
+                android:id="@+id/txtGroup25"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_25pxh"
                 android:layout_marginStart="@dimen/_25pxh"
@@ -52,9 +51,9 @@
                 android:paddingBottom="@dimen/_21pxv"
                 android:paddingStart="@dimen/_14pxh"
                 android:paddingTop="@dimen/_19pxv"
-                android:text="@{signInVM.signInModel.txtYourEmail}"
+                android:text="@{signInVM.signInModel.txtGroup25}"
                 style="@style/txtSolidRounded" tools:text="@string/lbl_your_email"/>
-            <LinearLayout android:id="@+id/linearGroup84"
+            <LinearLayout android:id="@+id/linearGroup75"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_20pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
@@ -62,7 +61,7 @@
                     android:buttonTint="@color/amber_301"
                     android:ellipsize="end"
                     android:fontFamily="@font/montserrat"
-                    android:id="@+id/checkBoxGroup37"
+                    android:id="@+id/checkBoxGroup28"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_25pxh"
                     android:layout_weight="0.53"
@@ -97,7 +96,7 @@
                 android:singleLine="true"
                 android:text="@string/lbl_sign_in_now"
                 android:textAllCaps="false"
-                style="@style/btnSolidRounded_3" tools:text="@string/lbl_sign_in_now"/>
+                style="@style/btnSolidRounded_2" tools:text="@string/lbl_sign_in_now"/>
             <TextView android:alpha="0.2" android:ellipsize="end"
                 android:id="@+id/txtOr"
                 android:layout_gravity="center_horizontal"
@@ -108,7 +107,7 @@
                 android:layout_width="wrap_content"
                 android:singleLine="true"
                 android:text="@{signInVM.signInModel.txtOr}"
-                style="@style/txtRobotoblack14" tools:text="@string/lbl_or2"/>
+                style="@style/txtRobotoblack14" tools:text="@string/lbl_or"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:ellipsize="end" android:gravity="center"
                 android:id="@+id/btnSignUpNow"
@@ -124,9 +123,9 @@
                 android:singleLine="true"
                 android:text="@string/lbl_sign_up_now"
                 android:textAllCaps="false"
-                style="@style/btnSolidRounded_4" tools:text="@string/lbl_sign_up_now"/>
+                style="@style/btnSolidRounded_3" tools:text="@string/lbl_sign_up_now"/>
             <TextView android:ellipsize="end"
-                android:id="@+id/txtAlreadyRegiste"
+                android:id="@+id/txtAlreadyregiste"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_16pxh"
@@ -134,7 +133,7 @@
                 android:layout_marginTop="@dimen/_152pxv"
                 android:layout_width="wrap_content"
                 android:singleLine="true"
-                android:text="@{signInVM.signInModel.txtAlreadyRegiste}"
+                android:text="@{signInVM.signInModel.txtAlreadyregiste}"
                 style="@style/txtRobotoregular12" tools:text="@string/msg_already_registe"/>
         </LinearLayout>
     </LinearLayout>

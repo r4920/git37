@@ -14,7 +14,7 @@ public data class OfferScreenModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtSuperFlashSal1: String? =
+  public var txtOffer: String? =
       MyApp.getInstance().resources.getString(R.string.msg_super_flash_sal)
   ,
   /**

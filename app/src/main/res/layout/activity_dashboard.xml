@@ -5,7 +5,7 @@
         <variable name="dashboardVM" type="com.rahulsapplication.app.modules.dashboard.data.viewmodel.DashboardVM"/>
     </data>
     <LinearLayout android:gravity="start"
-        android:id="@+id/linearGroup64"
+        android:id="@+id/linearGroup55"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStylewhite_A700">
@@ -41,7 +41,7 @@
                     android:layout_marginStart="@dimen/_32pxh"
                     android:layout_width="@dimen/_24pxh"
                     android:scaleType="fitXY" android:src="@drawable/img_loveicon"/>
-                <FrameLayout android:id="@+id/frameGroup54"
+                <FrameLayout android:id="@+id/frameGroup45"
                     android:layout_height="@dimen/_24pxv"
                     android:layout_marginStart="@dimen/_16pxh" android:layout_width="@dimen/_24pxh">
                     <ImageView android:id="@+id/imageNotificationic"
@@ -67,12 +67,12 @@
             android:layout_marginTop="@dimen/_43pxv"
             android:layout_weight="1" android:layout_width="match_parent">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearGroup50"
+                android:id="@+id/linearGroup41"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" android:orientation="vertical">
                 <com.asksira.loopingviewpager.LoopingViewPager
                     android:gravity="center_horizontal"
-                    android:id="@+id/imageSliderGroup17"
+                    android:id="@+id/imageSliderGroup8"
                     android:layout_height="@dimen/_206pxv"
                     android:layout_marginEnd="@dimen/_16pxh"
                     android:layout_marginStart="@dimen/_16pxh"
@@ -80,7 +80,7 @@
                     app:autoScroll="true" app:isInfinite="true" app:scrollInterval="5000"/>
 
                 <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
-                    android:id="@+id/indicatorGroup15"
+                    android:id="@+id/indicatorGroup6"
                     android:layout_gravity="center_horizontal"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_16pxh"
@@ -90,7 +90,7 @@
                     app:drawable_normal="@drawable/indicator_unselected_bg_blue_50_radius_8"
                     app:drawable_selected="@drawable/indicator_selected_bg_light_blue_a200_radius_8"
                     app:indicator_size="@dimen/_8pxh" app:indicator_spacing="@dimen/_8pxh"/>
-                <LinearLayout android:id="@+id/linearGroup41"
+                <LinearLayout android:id="@+id/linearGroup32"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_24pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
@@ -102,21 +102,21 @@
                         android:layout_width="0dp"
                         android:singleLine="true"
                         android:text="@{dashboardVM.dashboardModel.txtCategory}"
-                        style="@style/txtPoppinsbold14_2" tools:text="@string/lbl_category"/>
+                        style="@style/txtPoppinsbold14_1" tools:text="@string/lbl_category"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtMoreCategory"
+                        android:id="@+id/txtMoreCategoryL"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_16pxh"
                         android:layout_marginStart="@dimen/_157pxh"
                         android:layout_weight="0.61"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@{dashboardVM.dashboardModel.txtMoreCategory}"
-                        style="@style/txtPoppinsbold14_3" tools:text="@string/lbl_more_category"/>
+                        android:text="@{dashboardVM.dashboardModel.txtMoreCategoryL}"
+                        style="@style/txtPoppinsbold14_2" tools:text="@string/lbl_more_category"/>
                 </LinearLayout>
                 <HorizontalScrollView android:fillViewport="true"
                     android:gravity="end"
-                    android:id="@+id/horizontalScrollGroup63"
+                    android:id="@+id/horizontalScrollGroup54"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_16pxh"
                     android:layout_marginTop="@dimen/_12pxv"
@@ -228,16 +228,16 @@
                         android:layout_width="0dp"
                         android:singleLine="true"
                         android:text="@{dashboardVM.dashboardModel.txtFlashSale}"
-                        style="@style/txtPoppinsbold14_2" tools:text="@string/lbl_flash_sale"/>
+                        style="@style/txtPoppinsbold14_1" tools:text="@string/lbl_flash_sale"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtSeeMore"
+                        android:id="@+id/txtSeeMoreLink"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_197pxh"
                         android:layout_weight="0.47"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@{dashboardVM.dashboardModel.txtSeeMore}"
-                        style="@style/txtPoppinsbold14_3" tools:text="@string/lbl_see_more"/>
+                        android:text="@{dashboardVM.dashboardModel.txtSeeMoreLink}"
+                        style="@style/txtPoppinsbold14_2" tools:text="@string/lbl_see_more"/>
                 </LinearLayout>
                 <androidx.recyclerview.widget.RecyclerView
                     android:gravity="end"
@@ -263,16 +263,16 @@
                         android:layout_width="0dp"
                         android:singleLine="true"
                         android:text="@{dashboardVM.dashboardModel.txtMegaSale}"
-                        style="@style/txtPoppinsbold14_2" tools:text="@string/lbl_mega_sale"/>
+                        style="@style/txtPoppinsbold14_1" tools:text="@string/lbl_mega_sale"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtSeeMore1"
+                        android:id="@+id/txtSeeMoreLink1"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_195pxh"
                         android:layout_weight="0.47"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@{dashboardVM.dashboardModel.txtSeeMore1}"
-                        style="@style/txtPoppinsbold14_3" tools:text="@string/lbl_see_more"/>
+                        android:text="@{dashboardVM.dashboardModel.txtSeeMoreLink1}"
+                        style="@style/txtPoppinsbold14_2" tools:text="@string/lbl_see_more"/>
                 </LinearLayout>
                 <androidx.recyclerview.widget.RecyclerView
                     android:gravity="end"
@@ -314,13 +314,13 @@
         <FrameLayout android:id="@+id/frameBackgound"
             android:layout_height="wrap_content"
             android:layout_width="match_parent" style="@style/groupStylewhite_A700">
-            <LinearLayout android:id="@+id/linearGroup24"
+            <LinearLayout android:id="@+id/linearGroup15"
                 android:layout_gravity="bottom|start"
                 android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/_10pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
                 <LinearLayout android:gravity="center_horizontal"
-                    android:id="@+id/linearGroup19"
+                    android:id="@+id/linearGroup10"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:layout_width="0dp" android:orientation="vertical">
@@ -342,7 +342,7 @@
                         style="@style/txtPoppinsbold10_1" tools:text="@string/lbl_home"/>
                 </LinearLayout>
                 <LinearLayout android:gravity="center_horizontal"
-                    android:id="@+id/linearGroup20"
+                    android:id="@+id/linearGroup11"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:layout_width="0dp" android:orientation="vertical">
@@ -364,7 +364,7 @@
                         style="@style/txtPoppinsregular10" tools:text="@string/lbl_explore"/>
                 </LinearLayout>
                 <LinearLayout android:gravity="center_horizontal"
-                    android:id="@+id/linearGroup21"
+                    android:id="@+id/linearGroup12"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:layout_width="0dp" android:orientation="vertical">
@@ -386,7 +386,7 @@
                         style="@style/txtPoppinsregular10" tools:text="@string/lbl_cart"/>
                 </LinearLayout>
                 <LinearLayout android:gravity="center_horizontal"
-                    android:id="@+id/linearGroup22"
+                    android:id="@+id/linearGroup13"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:layout_width="0dp" android:orientation="vertical">
@@ -408,7 +408,7 @@
                         style="@style/txtPoppinsregular10" tools:text="@string/lbl_offer"/>
                 </LinearLayout>
                 <LinearLayout android:gravity="center_horizontal"
-                    android:id="@+id/linearGroup23"
+                    android:id="@+id/linearGroup14"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:layout_width="0dp" android:orientation="vertical">

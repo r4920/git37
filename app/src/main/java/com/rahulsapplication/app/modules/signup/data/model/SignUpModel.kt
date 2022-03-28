@@ -8,39 +8,39 @@ public data class SignUpModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtSignUpAndsta: String? =
+  public var txtTitle: String? =
       MyApp.getInstance().resources.getString(R.string.msg_sign_up_and_sta)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtYourName: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
+  public var txtGroup21: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtYourName1: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
+  public var txtGroup20: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtYourName2: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
+  public var txtGroup19: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtYourName3: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
+  public var txtGroup18: String? = MyApp.getInstance().resources.getString(R.string.lbl_your_name)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtBySigningUpY: String? =
+  public var txtBysigningupy: String? =
       MyApp.getInstance().resources.getString(R.string.msg_by_signing_up_y)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtAlreadyRegiste: String? =
+  public var txtAlreadyregiste: String? =
       MyApp.getInstance().resources.getString(R.string.msg_already_registe)
 
 )
